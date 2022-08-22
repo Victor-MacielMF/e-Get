@@ -3,7 +3,7 @@ Projeto: http://egetmarketplace.herokuapp.com
 Passo a passo para rodar o projeto localmente:
 
 - Clone o projeto em sua máquina.
-- Instale em sua máquina o [docker compose][docker compose](https://docs.docker.com/compose/install/).
+- Instale em sua máquina o [docker compose](https://docs.docker.com/compose/install/).
 - Entre na pasta do laradock.
 - Renomeie o arquivo env-example por .env com o comando: cp env-example .env.
 - Na pasta raiz do projeto, renomeie o arquivo env-example por .env com o comando: cp env-example .env.
