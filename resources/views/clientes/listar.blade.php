@@ -37,7 +37,7 @@
                 {{-- Pesquisa --}}
                 <form action="/clientes" method="get">
                     <input type="text" class="form-control main-input espaco-embaixo espaco-cima" name="pesquisa"
-                           placeholder="Pesquisa" value="" autocomplete="off" minlength="3" required>
+                           placeholder="Pesquisa" value="" autocomplete="off">
                     <button hidden>Pesquisar</button>
                 </form>
 
