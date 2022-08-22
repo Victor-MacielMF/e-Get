@@ -1,4 +1,4 @@
-Projeto: http://egetmarketplace.herokuapp.com/showCategoria
+Projeto: http://egetmarketplace.herokuapp.com
 
 Passo a passo para rodar o projeto localmente:
 
