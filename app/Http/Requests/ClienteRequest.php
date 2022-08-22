@@ -42,7 +42,7 @@ class ClienteRequest extends FormRequest
                 'bail',
                 'required',
                 'cpf',
-                'unique:clientes'
+                'unique:clientes,cpf,' .intval($this->id)
             ]
         ];
     }
