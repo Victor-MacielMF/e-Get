@@ -106,7 +106,7 @@
                                         <input class="form-control modal-input end-uf preenchimento-automatico espaco-embaixo-2 espaco-cima-2"
                                                name="estado" type="text" value="{{$cliente->endereco->estado ?? ''}}" id="uf"
                                                placeholder="Estado*" size="2"  maxlength="2" readonly required/>
-                                        <input name="ibge" type="hidden" id="ibge" size="8" disabled/>
+                                        <input name="id" type="hidden" id="id" size="8" value="{{$cliente->id ?? ''}}"/>
                                     </div>
                                 </div>
                             </div>
