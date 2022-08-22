@@ -107,6 +107,7 @@
                                                name="estado" type="text" value="{{$cliente->endereco->estado ?? ''}}" id="uf"
                                                placeholder="Estado*" size="2"  maxlength="2" readonly required/>
                                         <input name="id" type="hidden" id="id" size="8" value="{{$cliente->id ?? ''}}"/>
+                                        <input name="ibge" type="hidden" id="ibge" size="8" disabled/>
                                     </div>
                                 </div>
                             </div>
